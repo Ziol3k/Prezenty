@@ -106,3 +106,48 @@ footer {
   margin: 0 10px;
   font-size: 24px;
 }
+
+
+
+@media screen and (max-width: 768px) {
+  .product-box {
+    width: 60%;
+  }
+
+  .center-text {
+    font-size: 1.5em;
+  }
+
+  header {
+    height: 200px;
+  }
+}
+
+/* For smaller phones */
+@media screen and (max-width: 480px) {
+  .product-box {
+    width: 90%;
+  }
+
+  .center-text {
+    font-size: 1.2em;
+  }
+
+  header {
+    height: 150px;
+  }
+
+  .product-box p {
+    font-size: 20px;
+  }
+
+  .footer-icons a {
+    font-size: 20px;
+  }
+}
+
+
+img {
+  max-width: 100%;
+  height: auto;
+}
